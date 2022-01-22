@@ -68,6 +68,9 @@ header {
   background: url('images/aang.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
+  padding-top: 350px;
+}
+h1 {
   padding-top: 60px;
 }
 header {
@@ -81,6 +84,36 @@ header .profile-image {
   border: 6px solid #802aab;
   transition: all .5s;
 }
+
+main .darksouls-image {
+  width: 100%;
+  height: 150px;
+  background: white;
+  border: 5px solid #802aab;
+}
+
+main .skyrim-image {
+  width: 100%;
+  height: auto;
+  padding: 50px 0px;
+  background: white;
+  border: 5px solid #802aab;
+}
+
+main .kingdomhearts-image {
+  width: 100%;
+  height: auto;
+  padding: 50px 0px;
+  background: white;
+  border: 5px solid #802aab;
+}
+
+.img-container{
+  height: 150px;
+  justify-content: center;
+  background: white;
+}
+
 header .profile-image:hover {
   transform: scale(1.2) rotate(5deg);
 }
