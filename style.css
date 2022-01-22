@@ -110,13 +110,10 @@ main .kingdomhearts-image {
 
 .img-container{
   height: 150px;
-  justify-content: center;
+  justify-content: space-around;
   background: white;
 }
 
-header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
-}
 .tag {
   background-color: #efefef;
   color: black;
