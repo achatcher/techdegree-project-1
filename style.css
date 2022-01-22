@@ -87,31 +87,28 @@ header .profile-image {
 
 main .darksouls-image {
   width: 100%;
-  height: 150px;
-  background: white;
-  border: 5px solid #802aab;
+  height: auto;
+  padding: 50px 0px;
 }
 
 main .skyrim-image {
   width: 100%;
   height: auto;
-  padding: 50px 0px;
-  background: white;
-  border: 5px solid #802aab;
+  padding: 20px 0px;
 }
 
 main .kingdomhearts-image {
   width: 100%;
   height: auto;
-  padding: 50px 0px;
-  background: white;
-  border: 5px solid #802aab;
+  padding: 25px 0px;
 }
 
 .img-container{
   height: 150px;
-  justify-content: space-around;
   background: white;
+  padding: 5px;
+  overflow: hidden;
+  border: 5px solid #802aab;
 }
 
 .tag {
