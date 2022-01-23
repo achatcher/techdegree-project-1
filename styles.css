@@ -80,8 +80,8 @@ header {
 }
 
 .low {
-  background-color: #333333;
-  color: #efefef;
+  background-color: #802aab;
+  color: white;
   padding: 10px;
   border-radius: 5px;
   display: table;
@@ -97,7 +97,7 @@ header .profile-image {
   width: 150px;
   height: 150px;
   border-radius: 5%;
-  border: 6px solid #802aab;
+  border: 6px solid #333333;
   transition: all .5s;
 }
 
@@ -131,7 +131,7 @@ header .profile-image:hover {
   transform: translate(20px, 20%) rotate(45deg);
 }
 .tag {
-  background-color: #333333;
+  background-color: #802aab;
   color: #efefef;
   padding: 10px;
   border-radius: 5px;
@@ -139,7 +139,7 @@ header .profile-image:hover {
   margin: 10px auto;
 } 
 .location {
-  background-color: #802aab;
+  background-color: #333333;
   color: white;
 }
 .card {
