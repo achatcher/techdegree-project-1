@@ -70,6 +70,25 @@ header {
   overflow: hidden;
   padding-top: 60px;
 }
+
+.second-image{
+  text-align: center;
+  background: url('images/aang.jpg') no-repeat top center ;
+  background-size: cover;
+  overflow: hidden;
+  padding-top: 60px;
+}
+
+.low {
+  background-color: #333333;
+  color: #efefef;
+  padding: 10px;
+  border-radius: 5px;
+  display: table;
+  margin: 10px auto;
+  margin-top: 300px; 
+}
+
 header {
   line-height: 1.5;
 }
@@ -81,12 +100,39 @@ header .profile-image {
   border: 6px solid #802aab;
   transition: all .5s;
 }
+
+main .darksouls-image {
+  width: 100%;
+  height: auto;
+  padding: 50px 0px;
+}
+
+main .skyrim-image {
+  width: 100%;
+  height: auto;
+  padding: 20px 0px;
+}
+
+main .kingdomhearts-image {
+  width: 100%;
+  height: auto;
+  padding: 25px 0px;
+}
+
+.img-container{
+  height: 150px;
+  background: white;
+  padding: 5px;
+  overflow: hidden;
+  border: 5px solid #802aab;
+}
+
 header .profile-image:hover {
   transform: translate(20px, 20%) rotate(45deg);
 }
 .tag {
-  background-color: #efefef;
-  color: black;
+  background-color: #333333;
+  color: #efefef;
   padding: 10px;
   border-radius: 5px;
   display: table;
@@ -161,9 +207,7 @@ a.social {
   opacity: .8;
   transition: all .5s;
 }
-a.twitter {
-  background-image: url(images/twitter.svg);
-}
+
 a.linkedin {
   background-image: url(images/linkedin.svg);
 }
